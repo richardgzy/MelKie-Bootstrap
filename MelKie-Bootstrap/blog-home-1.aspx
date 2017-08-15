@@ -115,7 +115,7 @@
                                 <ul class="list-unstyled mb-0">
                                     <li><a href="#">Chinese Food</a></li>
                                     <li><a href="#">Indian Food</a></li>
-                                    <li><a href="#">japanese Food</a></li>
+                                    <li><a href="#">Japanese Food</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">

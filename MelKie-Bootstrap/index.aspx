@@ -9,11 +9,11 @@
     <title>MelKie - Your One Stop Online Portal</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <link href="modern-business.css" rel="stylesheet">
+   <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
 
 </head>
 

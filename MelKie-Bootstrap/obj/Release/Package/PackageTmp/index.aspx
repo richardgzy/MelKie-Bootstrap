@@ -1,6 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
+﻿<asp:content id="indexContent" contentplaceholderid="ContentPlaceHolder1" runat="Server">
 <head>
 
     <meta charset="utf-8">
@@ -11,70 +9,15 @@
     <title>MelKie - Your One Stop Online Portal</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+   <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="modern-business.css" rel="stylesheet">
+   <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
 
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.aspx">MelKie</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.aspx">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.aspx">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.aspx">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.aspx">1 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-2-col.aspx">2 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-3-col.aspx">3 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-4-col.aspx">4 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-item.aspx">Single Portfolio Item</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="blog-home-1.aspx">Blog Home 1</a>
-                        <a class="dropdown-item" href="blog-home-2.aspx">Blog Home 2</a>
-                        <a class="dropdown-item" href="blog-post.aspx">Blog Post</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Other Pages
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="full-width.aspx">Full Width Page</a>
-                        <a class="dropdown-item" href="sidebar.aspx">Sidebar Page</a>
-                        <a class="dropdown-item" href="faq.aspx">FAQ</a>
-                        <a class="dropdown-item" href="404.aspx">404</a>
-                        <a class="dropdown-item" href="pricing.aspx">Pricing Table</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <header>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -130,7 +73,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Explore Food</a>
+                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Food</a>
                     </div>
                 </div>
             </div>
@@ -141,7 +84,7 @@
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Explore Transportation</a>
+                        <a href="blog-home-2.aspx" class="btn btn-primary">Explore Transportation</a>
                     </div>
                 </div>
             </div>
@@ -160,7 +103,7 @@
         <!-- /.row -->
 
         <!-- Portfolio Section -->
-        <h2>Portfolio Heading</h2>
+        <%--<h2>Portfolio Heading</h2>
 
         <div class="row">
             <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -217,7 +160,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>--%>
         <!-- /.row -->
 
         <!-- Features Section -->
@@ -259,7 +202,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
         <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+            <p class="m-0 text-center text-white">Copyright &copy; Team Supreme 2017</p>
         </div>
         <!-- /.container -->
     </footer>
@@ -269,6 +212,6 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
+       
 </body>
-
-</html>
+ </asp:content>

@@ -1,6 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<asp:content id="blog1Content" contentplaceholderid="ContentPlaceHolder1" runat="Server">
 <head>
 
     <meta charset="utf-8">
@@ -15,77 +13,22 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
 
 </head>
 
 <body>
-
-    <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="services.html">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Portfolio
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-                    </div>
-                </li>
-                <li class="nav-item active dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Blog
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item active" href="blog-home-1.html">Blog Home 1</a>
-                        <a class="dropdown-item" href="blog-home-2.html">Blog Home 2</a>
-                        <a class="dropdown-item" href="blog-post.html">Blog Post</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Other Pages
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                        <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                        <a class="dropdown-item" href="404.html">404</a>
-                        <a class="dropdown-item" href="pricing.html">Pricing Table</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-
     <!-- Page Content -->
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Blog Home One <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Search Yummies in Melbourne</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Blog Home 1</li>
+            <li class="breadcrumb-item active">Search Yummies in Melbourne</li>
         </ol>
 
         <div class="row">
@@ -94,7 +37,7 @@
             <div class="col-md-8">
 
                 <!-- Blog Post -->
-                <div class="card mb-4">
+                <%--<div class="card mb-4">
                     <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">Post Title</h2>
@@ -104,11 +47,11 @@
                     <div class="card-footer text-muted">
                         Posted on January 1, 2017 by <a href="#">Start Bootstrap</a>
                     </div>
-                </div>
+                </div>--%>
 
                 <!-- Blog Post -->
                 <div class="card mb-4">
-                    <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                    <%--<img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">Post Title</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
@@ -116,14 +59,21 @@
                     </div>
                     <div class="card-footer text-muted">
                         Posted on January 1, 2017 by <a href="#">Start Bootstrap</a>
-                    </div>
+                    </div>--%>
+
+
+                   <%-- google map--%>
+
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25216.75408670116!2d144.94564137980782!3d-37.811261054166906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne+VIC+3000!5e0!3m2!1sen!2sau!4v1502775264999"
+                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
 
                 <!-- Blog Post -->
                 <div class="card mb-4">
                     <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                     <div class="card-body">
-                        <h2 class="card-title">Post Title</h2>
+                        <h2 class="card-title">Not Sure? Lets see what we got for you</h2>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
                         <a href="#" class="btn btn-primary">Read More &rarr;</a>
                     </div>
@@ -150,7 +100,7 @@
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Search for...">
                             <span class="input-group-btn">
-                                <button class="btn btn-secondary" type="button">Go!</button>
+                                <button class="btn btn-secondary" type="button" onclick="">Go!</button>
                             </span>
                         </div>
                     </div>
@@ -163,16 +113,16 @@
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#">Web Design</a></li>
-                                    <li><a href="#">HTML</a></li>
-                                    <li><a href="#">Freebies</a></li>
+                                    <li><a href="#">Chinese Food</a></li>
+                                    <li><a href="#">Indian Food</a></li>
+                                    <li><a href="#">Japanese Food</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><a href="#">JavaScript</a></li>
-                                    <li><a href="#">CSS</a></li>
-                                    <li><a href="#">Tutorials</a></li>
+                                    <li><a href="#">Aussie Food</a></li>
+                                    <li><a href="#">Korean Food</a></li>
+                                    <li><a href="#">Cafe</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -209,5 +159,4 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
-
-</html>
+    </asp:content>
