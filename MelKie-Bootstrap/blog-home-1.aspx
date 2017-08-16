@@ -66,7 +66,7 @@
 
 
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25216.75408670116!2d144.94564137980782!3d-37.811261054166906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne+VIC+3000!5e0!3m2!1sen!2sau!4v1502775264999"
-                        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                 </div>
 
                 <!-- Blog Post -->
@@ -83,10 +83,10 @@
                 </div>
 
                 <!-- Pagination -->
-                <ul class="pagination justify-content-center mb-4">
+                <%--<ul class="pagination justify-content-center mb-4">
                     <li class="page-item"><a class="page-link" href="#">&larr; Older</a></li>
                     <li class="page-item disabled"><a class="page-link" href="#">Newer &rarr;</a></li>
-                </ul>
+                </ul>--%>
 
             </div>
 
@@ -144,19 +144,5 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
 </body>
     </asp:content>

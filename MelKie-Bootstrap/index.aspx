@@ -6,20 +6,25 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>MelKie - Your One Stop Online Portal</title>
+    <%--<title>MelKie - Your One Stop Online Portal</title>--%>
 
     <!-- Bootstrap core CSS -->
    <link href="bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="modern-business.css" rel="stylesheet">
-   <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+
+   <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="MelKie - Your One Stop Online Portal in Melbourne"%>
 
 </head>
 
 <body>
     <header>
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+       <div>
+        <img src="space_sky_stars_79233_1920x1080.jpg" class="img-fluid" alt="Cinque Terre" width="1920" height="1080">
+        </div>
+         
+       <%-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -57,7 +62,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </header>
+    </header>--%>
 
     <!-- Page Content -->
     <div class="container">
@@ -68,9 +73,9 @@
         <div class="row">
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">What's yummy in Melbourne</h4>
+                    <h4 class="card-header">What's yummy here?</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">Living in Melbourne and you can still enjoy your hometown food! Search thousands of yummies here and have a look at our tips!</p>
                     </div>
                     <div class="card-footer">
                         <a href="blog-home-1.aspx" class="btn btn-primary">Explore Food</a>
@@ -79,12 +84,12 @@
             </div>
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">Transportation in Melbourne</h4>
+                    <h4 class="card-header">Transport in Melbourne</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                        <p class="card-text">Lost in Melbourne? We've got some guidance for you to hang out with your new friends in Melbourne!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="blog-home-2.aspx" class="btn btn-primary">Explore Transportation</a>
+                        <a href="services.aspx" class="btn btn-primary">Explore Transportation</a>
                     </div>
                 </div>
             </div>
@@ -92,10 +97,34 @@
                 <div class="card h-100">
                     <h4 class="card-header">Let's have some sports!</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <p class="card-text">Study is stressful, how about having some sports in some of the best eqquipped courts around you?</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Explore Fitness</a>
+                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Fitness</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Miscellaneous</h4>
+                    <div class="card-body">
+                        <p class="card-text">Some general and practicle skills to live in Melbourne, for oversea students like you!</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="portfolio-3-col.aspx" class="btn btn-primary">Explore general tips</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Feedback to us</h4>
+                    <div class="card-body">
+                        <p class="card-text">Want something more? Tell us what you need!</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="contact.aspx" class="btn btn-primary">Feedback to Us</a>
                     </div>
                 </div>
             </div>
@@ -166,17 +195,20 @@
         <!-- Features Section -->
         <div class="row">
             <div class="col-lg-6">
-                <h2>Modern Business Features</h2>
-                <p>The Modern Business template by Start Bootstrap includes:</p>
+                <h2>Something Cool Happens Here:</h2>
+                <p></p>
                 <ul>
-                    <li><strong>Bootstrap v4</strong>
-                    </li>
+                    <li>Bootstrap v4</li>
                     <li>jQuery</li>
                     <li>Font Awesome</li>
-                    <li>Working contact form with validation</li>
-                    <li>Unstyled page elements for easy customization</li>
+                    <li>ASP.NET</li>
+                    <li>Microsoft Azure</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+                <p>
+                    <strong>We are Team Supreme</strong><br/>
+                    We are focusing on International students experience at Melbourne<br/>
+                    Studying in other countries don't have to be tiring and confusing!<br/>
+                </p>
             </div>
             <div class="col-lg-6">
                 <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
@@ -189,29 +221,15 @@
         <!-- Call to Action Section -->
         <div class="row mb-4">
             <div class="col-md-8">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                <p>Are you ready for oversea studying?<br/>
+                    Explore what's cool happening in melbourne located universities!
+                </p>
             </div>
             <div class="col-md-4">
-                <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
+                <a class="btn btn-lg btn-secondary btn-block" href="#">Stay in Tune</a>
             </div>
         </div>
-
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Team Supreme 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-       
 </body>
  </asp:content>

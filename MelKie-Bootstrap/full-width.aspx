@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-     <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+     <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Full Width Page"%>
 </head>
 
 <body>
@@ -31,23 +31,9 @@
             <li class="breadcrumb-item active">Full Width</li>
         </ol>
 
-        <p>Most of Start Bootstrap's unstyled templates can be directly integrated into the Modern Business template. You can view all of our unstyled templates on our website at <a href="http://startbootstrap.com/template-categories/unstyled">http://startbootstrap.com/template-categories/unstyled</a>.</p>
+        <p><a>IE is fun hahahahahahahaha</a>.</p>
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
 </body>
 </asp:content>

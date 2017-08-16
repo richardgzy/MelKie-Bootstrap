@@ -1,4 +1,4 @@
-<asp:content id="portfolio-1-colContent" contentplaceholderid="ContentPlaceHolder1" runat="Server">
+<asp:content id="portfolio1colContent" contentplaceholderid="ContentPlaceHolder1" runat="Server">
 <head>
 
     <meta charset="utf-8">
@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Portfolio 1"%>
 </head>
 
 <body>
@@ -120,19 +120,6 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
 
