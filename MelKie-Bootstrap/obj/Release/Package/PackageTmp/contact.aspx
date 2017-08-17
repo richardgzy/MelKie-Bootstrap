@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Contact Us"%>
 </head>
 
 <body>
@@ -36,21 +36,21 @@
             <!-- Map Column -->
             <div class="col-lg-8 mb-4">
                 <!-- Embedded Google Map -->
-                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+                <iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6298.391776125519!2d145.04076969791842!3d-37.87910139359781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad6698cb33e0ac1%3A0x63f9134ad6bf7a0a!2sMonash+University%2C+Caulfield+Campus!5e0!3m2!1sen!2sau!4v1502889085893"></iframe>
             </div>
             <!-- Contact Details Column -->
             <div class="col-lg-4 mb-4">
                 <h3>Contact Details</h3>
                 <p>
-                    3481 Melrose Place
-                    <br>Beverly Hills, CA 90210
+                    Team Supreme
+                    <br>Monash university Caulfield Campus
                     <br>
                 </p>
                 <p>
                     <abbr title="Phone">P</abbr>: (123) 456-7890
                 </p>
                 <p>
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">name@example.com
+                    <abbr title="Email">E</abbr>: <a href="mailto:name@supreme.com">name@supreme.com
                     </a>
                 </p>
                 <p>
@@ -102,19 +102,6 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Contact form JavaScript -->
     <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->

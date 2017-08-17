@@ -74,6 +74,8 @@
     <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="blog-home-1.aspx" />
+    <Content Include="WebForm2.aspx" />
     <None Include="Properties\PublishProfiles\MelKie-Bootstrap - Web Deploy.pubxml" />
     <Content Include="MelkieMaster.Master" />
     <None Include="Web.Debug.config">
@@ -86,7 +88,6 @@
   <ItemGroup>
     <Content Include="404.aspx" />
     <Content Include="about.aspx" />
-    <Content Include="blog-home-1.aspx" />
     <Content Include="blog-home-2.aspx" />
     <Content Include="blog-post.aspx" />
     <Content Include="contact.aspx" />
@@ -126,6 +127,20 @@
     </Compile>
     <Compile Include="MelkieMaster.Master.designer.cs">
       <DependentUpon>MelkieMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="blog-home-1.aspx.cs">
+      <DependentUpon>blog-home-1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="blog-home-1.aspx.designer.cs">
+      <DependentUpon>blog-home-1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

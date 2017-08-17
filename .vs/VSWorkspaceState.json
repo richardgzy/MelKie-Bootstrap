@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\MelKie-Bootstrap"
+    "\\MelKie-Bootstrap",
+    "\\MelKie-Bootstrap\\vendor"
   ],
-  "SelectedNode": "\\MelKie-Bootstrap\\obj",
+  "SelectedNode": "\\MelKie-Bootstrap\\blog-home-2.aspx",
   "PreviewInSolutionExplorer": false
 }

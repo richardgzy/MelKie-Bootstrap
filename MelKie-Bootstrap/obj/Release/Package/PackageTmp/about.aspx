@@ -6,14 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
-
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="About Supreme"%>
 
 </head>
 
@@ -23,7 +21,7 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">About <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">About Supreme</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -34,11 +32,11 @@
 
         <!-- Intro Content -->
         <div class="row">
-            <div class="col-lg-6">
-                <img class="img-fluid rounded mb-4" src="http://placehold.it/750x450" alt="">
+            <div class="col-lg-4">
+                <img class="img-fluid rounded mb-4" src="team logo.jpg" alt="">
             </div>
-            <div class="col-lg-6">
-                <h2>About Modern Business</h2>
+            <div class="col-lg-8">
+                <h2>We are Supreme!</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
@@ -50,11 +48,11 @@
         <h2>Our Team</h2>
 
         <div class="row">
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
                     <img class="card-img-top" src="http://placehold.it/750x450" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Team Member</h4>
+                        <h4 class="card-title">Richard</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Position</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
                     </div>
@@ -63,11 +61,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
                     <img class="card-img-top" src="http://placehold.it/750x450" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Team Member</h4>
+                        <h4 class="card-title">Aaron</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Position</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
                     </div>
@@ -76,11 +74,24 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
                     <img class="card-img-top" src="http://placehold.it/750x450" alt="">
                     <div class="card-body">
-                        <h4 class="card-title">Team Member</h4>
+                        <h4 class="card-title">Carol</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#">name@example.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100 text-center">
+                    <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Ashen</h4>
                         <h6 class="card-subtitle mb-2 text-muted">Position</h6>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
                     </div>
@@ -118,19 +129,6 @@
 
     </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
 </body>
     </asp:content>

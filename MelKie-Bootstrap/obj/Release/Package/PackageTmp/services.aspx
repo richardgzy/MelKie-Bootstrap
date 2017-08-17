@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Our Services"%>
 </head>
 
 <body>
@@ -22,13 +22,13 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Services <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Transportation in Melbourne</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Services</li>
+            <li class="breadcrumb-item active">Transportation</li>
         </ol>
 
         <!-- Image Header -->
@@ -36,33 +36,56 @@
 
         <!-- Marketing Icons Section -->
         <div class="row">
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+                    <h4 class="card-header">Tram Info</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <ul>
+                            <li>Tram Timetable</li>
+                            <li>Why take Tram?</li>
+                        </ul>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+                    <h4 class="card-header">Train Info</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni nostrum sint fuga.</p>
+                       <ul>
+                            <li>Train Timetable</li>
+                            <li>Why take Train?</li>
+                        </ul>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 mb-4">
+            <div class="col-lg-3 mb-4">
                 <div class="card h-100">
-                    <h4 class="card-header">Card Title</h4>
+                    <h4 class="card-header">Shuttle Bus Info</h4>
                     <div class="card-body">
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        <ul>
+                            <li>Shuttle Bus Timetable</li>
+                            <li>Why take Shuttle Bus?</li>
+                        </ul>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Myki Info</h4>
+                    <div class="card-body">
+                        <ul>
+                            <li>Where can I get Myki?</li>
+                            <li>Why need Myki?</li>
+                        </ul>
                     </div>
                     <div class="card-footer">
                         <a href="#" class="btn btn-primary">Learn More</a>
@@ -71,22 +94,7 @@
             </div>
         </div>
         <!-- /.row -->
-
-    </div>
     <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-        </div>
-        <!-- /.container -->
-    </footer>
-
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/popper/popper.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
+    </div>
 </body>
 </asp:content>
