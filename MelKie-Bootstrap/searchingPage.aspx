@@ -1,4 +1,4 @@
-<asp:content id="blog1Content" contentplaceholderid="ContentPlaceHolder1" runat="Server">
+﻿<asp:content id="blog1Content" contentplaceholderid="ContentPlaceHolder1" runat="Server" >
 <head>
 
     <meta charset="utf-8">
@@ -13,12 +13,13 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Content Page"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="searching Page" AutoEventWireup="true" CodeBehind="searchingPage.aspx.cs" Inherits="MelKie_Bootstrap.searchingPage"%>
 
 </head>
 
 <body>
     <!-- Page Content -->
+
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
@@ -65,8 +66,10 @@
                    <%-- google map--%>
 
 
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25216.75408670116!2d144.94564137980782!3d-37.811261054166906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b8c21cb29b%3A0x1c045678462e3510!2sMelbourne+VIC+3000!5e0!3m2!1sen!2sau!4v1502775264999"
-                        width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <iframe name="map1" runat="server" src="https://www.google.com/maps/embed/v1/search?q=chinese%20restaurant%20in%20melbourne%20CBD&key=AIzaSyAABKsQey-XPjwR-wtUdWPtf7VqS-MXS7k"
+                        width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id
+                        ="map1"></iframe>
+
                 </div>
 
                 <!-- Blog Post -->
@@ -98,9 +101,10 @@
                     <h5 class="card-header">Search</h5>
                     <div class="card-body">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search for...">
+                            <asp:TextBox id="searchBox1" runat="server" type="text" class="form-control" placeholder="Search for...">
+                                </asp:TextBox>
                             <span class="input-group-btn">
-                                <button class="btn btn-secondary" type="button" onclick="">Go!</button>
+                                <button class="btn btn-secondary" type="button" onclick="googleMapSearch">Go!</button>
                             </span>
                         </div>
                     </div>

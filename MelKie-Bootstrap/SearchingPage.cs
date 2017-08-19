@@ -7,16 +7,15 @@ using System.Web.UI.WebControls;
 
 namespace MelKie_Bootstrap
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class searchingPage : Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+           
         }
-
+       
         void googleMapSearch(Object sender, EventArgs e)
         {
-            String searchQuery = "hello world";
             
         }
 

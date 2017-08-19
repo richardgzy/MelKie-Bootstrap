@@ -78,7 +78,7 @@
                         <p class="card-text">Living in Melbourne and you can still enjoy your hometown food! Search thousands of yummies here and have a look at our tips!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Food</a>
+                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Food</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         <p class="card-text">Study is stressful, how about having some sports in some of the best eqquipped courts around you?</p>
                     </div>
                     <div class="card-footer">
-                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Fitness</a>
+                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Fitness</a>
                     </div>
                 </div>
             </div>

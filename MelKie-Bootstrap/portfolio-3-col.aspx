@@ -22,11 +22,11 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Miscellaneous</h1>
+        <h1 class="mt-4 mb-3">Miscellaneous(To be developed soon)</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
-                <a href="index.html">Home</a>
+                <a href="index.aspx">Home</a>
             </li>
             <li class="breadcrumb-item active">Miscellaneous</li>
         </ol>

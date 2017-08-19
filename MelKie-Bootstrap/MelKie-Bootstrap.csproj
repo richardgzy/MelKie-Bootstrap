@@ -68,14 +68,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap.min.css" />
+    <Content Include="foodSearching.aspx" />
+    <Content Include="food_articles\bootstrap.min.css" />
+    <Content Include="food_articles\chinese_food_1.jpg" />
+    <Content Include="food_articles\chinese_food_2.jpg" />
+    <Content Include="food_articles\japanese_food_1.jpg" />
+    <Content Include="food_articles\japanese_food_2.jpg" />
+    <Content Include="food_articles\korean_food_1.jpg" />
+    <Content Include="food_articles\korean_food_2.jpg" />
+    <Content Include="food_articles\portfolio-item3.aspx" />
+    <Content Include="food_articles\portfolio-item2.aspx" />
     <Content Include="modern-business.css" />
     <Content Include="packages.config" />
     <Content Include=".gitignore" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="blog-home-1.aspx" />
-    <Content Include="WebForm2.aspx" />
+    <Content Include="searchingPage.aspx" />
     <None Include="Properties\PublishProfiles\MelKie-Bootstrap - Web Deploy.pubxml" />
     <Content Include="MelkieMaster.Master" />
     <None Include="Web.Debug.config">
@@ -99,7 +108,7 @@
     <Content Include="portfolio-2-col.aspx" />
     <Content Include="portfolio-3-col.aspx" />
     <Content Include="portfolio-4-col.aspx" />
-    <Content Include="portfolio-item.aspx" />
+    <Content Include="food_articles\portfolio-item1.aspx" />
     <Content Include="pricing.aspx" />
     <Content Include="services.aspx" />
     <Content Include="sidebar.aspx" />
@@ -120,6 +129,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="foodSearching.aspx.cs">
+      <DependentUpon>foodSearching.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="foodSearching.aspx.designer.cs">
+      <DependentUpon>foodSearching.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MelkieMaster.Master.cs">
       <DependentUpon>MelkieMaster.Master</DependentUpon>
@@ -128,19 +144,11 @@
     <Compile Include="MelkieMaster.Master.designer.cs">
       <DependentUpon>MelkieMaster.Master</DependentUpon>
     </Compile>
-    <Compile Include="blog-home-1.aspx.cs">
-      <DependentUpon>blog-home-1.aspx</DependentUpon>
+    <Compile Include="searchingPage.aspx.designer.cs">
+      <DependentUpon>searchingPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SearchingPage.cs">
       <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="blog-home-1.aspx.designer.cs">
-      <DependentUpon>blog-home-1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="WebForm2.aspx.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="WebForm2.aspx.designer.cs">
-      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

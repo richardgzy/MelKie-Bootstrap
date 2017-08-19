@@ -22,7 +22,7 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Contact <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Contact Us</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -64,7 +64,8 @@
         <!-- In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
         <div class="row">
             <div class="col-lg-8 mb-4">
-                <h3>Send us a Message</h3>
+                <h3>Tell Us What Do You Think About Our Website:</h3>
+                <h5>Or other sections you are willing to have in MelKie</h5><br/>
                 <form name="sentMessage" id="contactForm" novalidate>
                     <div class="control-group form-group">
                         <div class="controls">

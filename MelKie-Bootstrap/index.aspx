@@ -78,7 +78,7 @@
                         <p class="card-text">Living in Melbourne and you can still enjoy your hometown food! Search thousands of yummies here and have a look at our tips!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Food</a>
+                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Food</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         <p class="card-text">Study is stressful, how about having some sports in some of the best eqquipped courts around you?</p>
                     </div>
                     <div class="card-footer">
-                        <a href="blog-home-1.aspx" class="btn btn-primary">Explore Fitness</a>
+                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Fitness</a>
                     </div>
                 </div>
             </div>
@@ -192,28 +192,30 @@
         </div>--%>
         <!-- /.row -->
 
+        <div class="jumbotron">
+  <h1 class="my-3">What's New For International Students</h1>
+  <hr class="my-4">
+  <p>Newsletter Goes Here</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-md" href="#" role="button">Learn more</a>
+  </p>
+</div>
+
+
         <!-- Features Section -->
-        <div class="row">
+      <%--  <div class="row">
             <div class="col-lg-6">
                 <h2>Something Cool Happens Here:</h2>
                 <p></p>
-                <ul>
-                    <li>Bootstrap v4</li>
-                    <li>jQuery</li>
-                    <li>Font Awesome</li>
-                    <li>ASP.NET</li>
-                    <li>Microsoft Azure</li>
-                </ul>
                 <p>
-                    <strong>We are Team Supreme</strong><br/>
-                    We are focusing on International students experience at Melbourne<br/>
-                    Studying in other countries don't have to be tiring and confusing!<br/>
+                    <br/><br/>
+                    Some newsletter goes here
                 </p>
             </div>
             <div class="col-lg-6">
                 <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
             </div>
-        </div>
+        </div>--%>
         <!-- /.row -->
 
         <hr>

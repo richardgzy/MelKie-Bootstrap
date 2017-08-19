@@ -32,13 +32,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="blog-home-1.aspx">Foods</a>
+                    <a class="nav-link" href="foodSearching.aspx">Foods</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="services.aspx">Transportation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="blog-home-1.aspx">Sport Courts</a>
+                    <a class="nav-link" href="foodSearching.aspx">Sport Courts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="portfolio-3-col.aspx">Miscellaneous</a>
