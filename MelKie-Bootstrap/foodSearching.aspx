@@ -157,7 +157,7 @@
 
                 <!-- Categories Widget -->
                 <div class="card my-4">
-                    <h5 class="card-header">Categories</h5>
+                    <h5 class="card-header">Quick Search</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
@@ -171,7 +171,7 @@
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
                                     <li><asp:LinkButton id="LinkButton4" Text="Aussie Food" OnClick="searchButton_Click_2" runat="server"/></li>
-                                    <li><asp:LinkButton id="LinkButton5" Text="Aussie Food" OnClick="searchButton_Click_2" runat="server"/></li>
+                                    <li><asp:LinkButton id="LinkButton5" Text="Korean Food" OnClick="searchButton_Click_2" runat="server"/></li>
                                     <li><asp:LinkButton id="LinkButton6" Text="Cafe" OnClick="searchButton_Click_2" runat="server"/></li>
                                 </ul>
                             </div>
@@ -183,7 +183,10 @@
                 <div class="card my-4">
                     <h5 class="card-header">How to use?</h5>
                     <div class="card-body">
-                        This is a convinient google map searching, type in anything you like and let us lead you to your favourite restaurant!
+                        This is a convinient google map searching, type in anything you like and let us lead you to your favourite restaurant!<br/><br/>
+                        Apart from <strong>name, type, address search</strong>, we also support <strong>range search</strong>.<br/><br/>
+                        For example, if you want to search all chinese restaurant in Melbourne CBD, type in 'Chinese restaurant in Melbourne CBD'<br/><br/>
+                        You can also use the quick search sections above.
                     </div>
                 </div>
             </div>

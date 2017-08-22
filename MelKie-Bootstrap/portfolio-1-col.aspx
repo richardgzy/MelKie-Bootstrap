@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Portfolio 1"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Food Culture&Tips in Melbourne"%>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
             <li class="breadcrumb-item">
                 <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Food Culture and Tips</li>
+            <li class="breadcrumb-item active">Food Culture&Tips in Melbourne</li>
         </ol>
 
         <!-- Project One -->

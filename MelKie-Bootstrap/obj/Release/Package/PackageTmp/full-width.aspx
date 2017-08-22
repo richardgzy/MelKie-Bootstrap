@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-     <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Full Width Page"%>
+     <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Sports in Melbourne"%>
 </head>
 
 <body>
@@ -22,16 +22,16 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Full Width <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Sports in Melbourne</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Full Width</li>
+            <li class="breadcrumb-item active">Sports in Melbourne</li>
         </ol>
 
-        <p><a>IE is fun hahahahahahahaha</a>.</p>
+        <p><a>To be implemented in iteration 2</a>.</p>
 
     </div>
     <!-- /.container -->
