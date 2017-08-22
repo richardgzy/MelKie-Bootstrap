@@ -9,12 +9,12 @@
     <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
-    <link href="../css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="../MelkieMaster.master" Title="Let's Explore Japanese Cuisine"%>
+    <link href="~/css/modern-business.css" rel="stylesheet">
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Let's Explore Japanese Cuisine"%>
 </head>
 
 <body>
@@ -60,9 +60,8 @@ Sashimi is thinly sliced, raw food. It is one of the most famous dishes in the J
                 <p>Japanese cuisine offers an abundance of gastronomical delights with a boundless variety of regional and seasonal dishes as well as international cuisine. Two of the most popular Japanese cuisine are Ramen and Sashimi.<br/><br/>
 Ramen is a noodle soup dish that was originally imported from China and has become one of the most popular dishes in Japan in recent decades. Ramen are inexpensive and widely available, which makes a good choice for international students. Ramen are typically in different soup base, and with multiple choice of toppings in it. The main types of soup are: Shoyu (Soy Sauce), Shio (Salt), Miso (Soybean Paste) and Tonkotsu (Pork Bone). The toppings commonly served with Ramen are Chashu (Fatty slices of roasted or braised pork), Menma (Preserved bamboo shoots with a salty flavor), Negi (Chopped or shredded leeks or green onions), Moyashi (Raw or cooked bean sprouts add sweetness and crunch), Tamago (Hard boiled, soft boiled, raw and marinated eggs), Seaweed, Kamaboko (Slices of steamed fish cake), Corn and Butter.
 <br/><br/>Sashimi is thinly sliced, raw food. It is one of the most famous dishes in the Japanese cuisine. Seafood is most commonly eaten as sashimi, but other types of meats (such as beef, horse and deer) and foods (such as yuba tofu skin and konnyaku) can also be served as sashimi. Some people confuse sashimi with sushi. Unlike sashimi, sushi includes vinegared rice. Depending on the type of sashimi, a little bit of wasabi or ground ginger may be added to the sashimi piece. </p>
-                <%--<br/><br/>Feel interested in Chinese Food?Click--%>
-            <%--<asp:LinkButton ID="linkToSearch1" runat="server" OnClick=""
-            --%></div>
+                
+            </div>
         <!-- Related Projects Row -->
         <h3 class="my-4">Other Articles</h3>
 

@@ -25,34 +25,26 @@
 </head>
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="../index.aspx">MelKie</a>
+        <a class="navbar-brand" href="index.aspx">MelKie</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFood" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore Food
-                        </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="../foodSearching.aspx">Search Foods</a>
-                        <a class="dropdown-item" href="../portfolio-1-col.aspx">Food Culture&Tips in Melbourne</a>
-                    </div>
-                </li>
-               <%-- <li class="nav-item">
-                    <a class="nav-link" href="../foodSearching.aspx">Foods</a>
-                </li>--%>
                 <li class="nav-item">
-                    <a class="nav-link" href="../services.aspx">Transportation</a>
+                    <a class="nav-link" href="foodSearching.aspx">Foods</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../full-width.aspx">Sport Courts</a>
+                    <a class="nav-link" href="services.aspx">Transportation</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../portfolio-3-col.aspx">Miscellaneous</a>
+                    <a class="nav-link" href="foodSearching.aspx">Sport Courts</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../contact.aspx">Contact Us</a>
+                    <a class="nav-link" href="portfolio-3-col.aspx">Miscellaneous</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.aspx">Contact Us</a>
                 </li>
               <%--  <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Portfolio
@@ -78,9 +70,10 @@
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownOthers" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other Pages
                         </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="../faq.aspx">FAQ</a>
-                        <a class="dropdown-item" href="../pricing.aspx">Support Us</a>
-                        <a class="dropdown-item" href="../about.aspx">About Supreme</a>
+                        <a class="dropdown-item" href="full-width.aspx">Full Width Page</a>
+                        <a class="dropdown-item" href="faq.aspx">FAQ</a>
+                        <a class="dropdown-item" href="pricing.aspx">Support Us</a>
+                        <a class="dropdown-item" href="about.aspx">About Supreme</a>
                     </div>
                 </li>
             </ul>

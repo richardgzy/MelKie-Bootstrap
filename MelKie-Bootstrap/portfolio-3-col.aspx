@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Miscellaneous"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Portfolio 3"%>
 </head>
 
 <body>

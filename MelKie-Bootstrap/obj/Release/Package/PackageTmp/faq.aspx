@@ -20,7 +20,7 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">FAQ</h1>
+        <h1 class="mt-4 mb-3">FAQ <small>Subheading</small></h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -33,7 +33,7 @@
             <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
                     <h5 class="mb-0">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is this website?</a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Collapsible Group Item #1</a>
                     </h5>
                 </div>
 
@@ -46,7 +46,7 @@
             <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                     <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Is your information trustworthy?
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Collapsible Group Item #2
                         </a>
                     </h5>
                 </div>
@@ -59,8 +59,7 @@
             <div class="card">
                 <div class="card-header" role="tab" id="headingThree">
                     <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">This website is awoesome! Can I have more functionalities?
-                        </a>
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Collapsible Group Item #3</a>
                     </h5>
                 </div>
                 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">

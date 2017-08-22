@@ -22,7 +22,7 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Transportation in Melbourne(To be developed soon)</h1>
+        <h1 class="mt-4 mb-3">Transportation in Melbourne</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">

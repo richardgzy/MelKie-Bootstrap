@@ -53,13 +53,6 @@
                 ClientScript.RegisterStartupScript(this.GetType(), "myalert", "alert('" + myStringVariable + "');", true);
             }
         }
-
-        protected void searchButton_Click_2(object sender, EventArgs e)
-        {
-            LinkButton btn = sender as LinkButton;
-            searchBox1.Text = btn.Text;
-            searchButton_Click(sender, e);
-        }
 </script>
 
 </head>
@@ -121,12 +114,11 @@
                     <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">Not Sure? Lets see what we got for you</h2>
-                        <p class="card-text">Melbourne is a city full of diversity, kind of lost in millions of choices above?<br/><br/>
-                            let's start exploring by reading some of our great tips for you. Those tips and articles help you understand different food culture in Melbourne!</p>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
                         <a href="portfolio-1-col.aspx" class="btn btn-primary">Read More &rarr;</a>
                     </div>
                     <div class="card-footer text-muted">
-                        Posted on Aug 1, 2017 by <a href="about.aspx">Supreme</a>
+                        Posted on January 1, 2017 by <a href="#">Start Bootstrap</a>
                     </div>
                 </div>
 
@@ -146,7 +138,7 @@
                     <h5 class="card-header">Search</h5>
                     <div class="card-body">
                         <div class="input-group">
-                            <asp:TextBox id="searchBox1" runat="server" type="text" class="form-control" placeholder="search your favorite food">
+                            <asp:TextBox id="searchBox1" runat="server" type="text" class="form-control" placeholder="Search for...">
                                 </asp:TextBox>
                             <span class="input-group-btn">
                                 <asp:Button id="searchButton" class="btn btn-secondary" type="button" runat="server" onclick="searchButton_Click" Text="Go!" />
@@ -157,22 +149,21 @@
 
                 <!-- Categories Widget -->
                 <div class="card my-4">
-                    <h5 class="card-header">Quick Search</h5>
+                    <h5 class="card-header">Categories</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
-                                    <%--<li><a href="#">Chinese Food</a></li>--%>
-                                    <li><asp:LinkButton id="LinkButton1" Text="Chinese Food" OnClick="searchButton_Click_2" runat="server"/></li>
-                                    <li><asp:LinkButton id="LinkButton2" Text="Indian Food" OnClick="searchButton_Click_2" runat="server"/></li>
-                                    <li><asp:LinkButton id="LinkButton3" Text="Japanese Food" OnClick="searchButton_Click_2" runat="server"/></li>
+                                    <li><a href="#">Chinese Food</a></li>
+                                    <li><a href="#">Indian Food</a></li>
+                                    <li><a href="#">Japanese Food</a></li>
                                 </ul>
                             </div>
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><asp:LinkButton id="LinkButton4" Text="Aussie Food" OnClick="searchButton_Click_2" runat="server"/></li>
-                                    <li><asp:LinkButton id="LinkButton5" Text="Korean Food" OnClick="searchButton_Click_2" runat="server"/></li>
-                                    <li><asp:LinkButton id="LinkButton6" Text="Cafe" OnClick="searchButton_Click_2" runat="server"/></li>
+                                    <li><a href="#">Aussie Food</a></li>
+                                    <li><a href="#">Korean Food</a></li>
+                                    <li><a href="#">Cafe</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -181,12 +172,9 @@
 
                 <!-- Side Widget -->
                 <div class="card my-4">
-                    <h5 class="card-header">How to use?</h5>
+                    <h5 class="card-header">Side Widget</h5>
                     <div class="card-body">
-                        This is a convinient google map searching, type in anything you like and let us lead you to your favourite restaurant!<br/><br/>
-                        Apart from <strong>name, type, address search</strong>, we also support <strong>range search</strong>.<br/><br/>
-                        For example, if you want to search all chinese restaurant in Melbourne CBD, type in 'Chinese restaurant in Melbourne CBD'<br/><br/>
-                        You can also use the quick search sections above.
+                        You can put anything you want inside of these side widgets. They are easy to use, and feature the new Bootstrap 4 card containers!
                     </div>
                 </div>
             </div>

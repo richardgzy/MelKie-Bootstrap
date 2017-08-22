@@ -13,7 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Support Us"%>
+    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Pricing"%>
 </head>
 
 <body>
@@ -21,13 +21,13 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Support Us</h1>
+        <h1 class="mt-4 mb-3">Pricing <small>Subheading</small></h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Support Us</li>
+            <li class="breadcrumb-item active">Pricing</li>
         </ol>
 
         <!-- Content Row -->
@@ -36,14 +36,14 @@
                 <div class="card h-100">
                     <h3 class="card-header">Basic</h3>
                     <div class="card-body">
-                        <div class="display-4">$6.66</div>
-                        <div class="font-italic">"good work! some tips for you"</div>
+                        <div class="display-4">$19.99</div>
+                        <div class="font-italic">per month</div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">A big thanks to you!</li>
-                        <li class="list-group-item">We will keep working and provide better service!</li>
-                        <li class="list-group-item">Wish you have a good time in Melbourne!</li>
-                        <li class="list-group-item"><a href="#" class="btn btn-primary">Donate</a></li>
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a></li>
                     </ul>
                 </div>
             </div>
@@ -51,14 +51,14 @@
                 <div class="card card-outline-primary h-100">
                     <h3 class="card-header bg-primary text-white">Plus</h3>
                     <div class="card-body">
-                        <div class="display-4">$66.66</div>
-                        <div class="font-italic">"you guys really helped me a lot"</div>
+                        <div class="display-4">$39.99</div>
+                        <div class="font-italic">per month</div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">You are just too kind, you must be one of our friends</li>
-                        <li class="list-group-item">You don't really have to, I mean</li>
-                        <li class="list-group-item">Can I give you a big hug?</li>
-                        <li class="list-group-item"><a href="#" class="btn btn-primary">Donate</a></li>
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a></li>
                     </ul>
                 </div>
             </div>
@@ -66,14 +66,14 @@
                 <div class="card h-100">
                     <h3 class="card-header">Ultra</h3>
                     <div class="card-body">
-                        <div class="display-4">$6666.66</div>
-                        <div class="font-italic">"Go squander guys, I am rich"</div>
+                        <div class="display-4">$159.99</div>
+                        <div class="font-italic">per month</div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item">I believe you are just kidding</li>
-                        <li class="list-group-item">Or misclicked</li>
-                        <li class="list-group-item">If you are serious...wow, we need to talk</li>
-                        <li class="list-group-item"><a href="#" class="btn btn-primary">Donate</a></li>
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Vestibulum at eros</li>
+                        <li class="list-group-item"><a href="#" class="btn btn-primary">Sign Up!</a></li>
                     </ul>
                 </div>
             </div>
