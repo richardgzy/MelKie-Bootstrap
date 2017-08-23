@@ -37,66 +37,66 @@
             </div>
             <div class="col-lg-8">
                 <h2>We are Supreme!</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                <p>Welcome to Supreme team page! Our project - MelKie is a website which aims to provide the essential demands for new oversea students in Melbourne. As international students, they may suffer from loneliness, language barrier, homesick etc..</p>
+                <p>The objective of MelKi is to offer those valuable information as they require. Our functionality includes: displaying and searching local restaurants, sports courts, helping students to know melbourne tramsportation and providing other necessary information for rookies in Melbourne. This website is a one-stop portal for international students, using the most trustworthy and accurate data resources to help them settle into life in Melbourne. No more endless googleing! </p>
+                <p>Considering the language problems for the "rookies" international students, there will be different language options in the future that allows oversea students to select their native tongues from our website. They can also suggest feedback, which helps in keeping the data up to date and make our website sustainable.</p>
             </div>
         </div>
         <!-- /.row -->
 
         <!-- Team Members -->
         <h2>Our Team</h2>
-
+        <br />
         <div class="row">
             <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
-                    <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                    <img class="card-img-top" src="IMG_4684.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Richard</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">Website Developer</h6>
+                        <p class="card-text">Welcome to our Website, Wish you like it!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#">name@example.com</a>
+                        <a href="#">zyguo5@student.monash.edu</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
-                    <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                    <img class="card-img-top" src="IMG_4683.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Aaron</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">UI Designer</h6>
+                        <p class="card-text">Welcome to our Website, Wish you like it!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#">name@example.com</a>
+                        <a href="#">lli135@student.monash.edu</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
-                    <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                    <img class="card-img-top" src="IMG_4682.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Carol</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">UI Designer</h6>
+                        <p class="card-text">Welcome to our Website, Wish you like it!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#">name@example.com</a>
+                        <a href="#">sjia68@student.monash.edu</a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-3 mb-4">
                 <div class="card h-100 text-center">
-                    <img class="card-img-top" src="http://placehold.it/750x450" alt="">
+                    <img class="card-img-top" src="IMG_4685.jpg" alt="">
                     <div class="card-body">
                         <h4 class="card-title">Ashen</h4>
-                        <h6 class="card-subtitle mb-2 text-muted">Position</h6>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus aut mollitia eum ipsum fugiat odio officiis odit.</p>
+                        <h6 class="card-subtitle mb-2 text-muted">Copywriter</h6>
+                        <p class="card-text">Welcome to our Website, Wish you like it!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="#">name@example.com</a>
+                        <a href="#">araj42@student.monash.edu</a>
                     </div>
                 </div>
             </div>
@@ -104,7 +104,7 @@
         <!-- /.row -->
 
         <!-- Our Customers -->
-        <h2>Our Customers</h2>
+        <%--<h2>Our Customers</h2>
         <div class="row">
             <div class="col-lg-2 col-sm-4 mb-4">
                 <img class="img-fluid" src="http://placehold.it/500x300" alt="">
@@ -124,7 +124,7 @@
             <div class="col-lg-2 col-sm-4 mb-4">
                 <img class="img-fluid" src="http://placehold.it/500x300" alt="">
             </div>
-        </div>
+        </div>--%>
         <!-- /.row -->
 
     </div>

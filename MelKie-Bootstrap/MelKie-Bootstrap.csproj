@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap.min.css" />
+    <Content Include="dan-gold-2987101.jpg" />
+    <Content Include="fabian-mardi-119168-Recovered1.jpg" />
     <Content Include="foodSearching.aspx" />
     <Content Include="food_articles\bootstrap.min.css" />
     <Content Include="food_articles\chinese_food_1.jpg" />
@@ -78,6 +80,10 @@
     <Content Include="food_articles\korean_food_2.jpg" />
     <Content Include="food_articles\portfolio-item3.aspx" />
     <Content Include="food_articles\portfolio-item2.aspx" />
+    <Content Include="IMG_4682.JPG" />
+    <Content Include="IMG_4683.JPG" />
+    <Content Include="IMG_4684.JPG" />
+    <Content Include="IMG_4685.JPG" />
     <Content Include="modern-business.css" />
     <Content Include="packages.config" />
     <Content Include=".gitignore" />

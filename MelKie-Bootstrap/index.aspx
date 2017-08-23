@@ -14,14 +14,14 @@
     <!-- Custom styles for this template -->
     <link href="modern-business.css" rel="stylesheet">
 
-   <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="MelKie - Your One Stop Online Portal in Melbourne"%>
+   <%@ Page Language="C#" MasterPageFile="MelkieMaster.master" Title="MelKie - Your One Stop Online Portal in Melbourne"%>
 
 </head>
 
 <body>
     <header>
        <div>
-        <img src="space_sky_stars_79233_1920x1080.jpg" class="img-fluid" alt="Cinque Terre" width="1920" height="1080">
+        <img src="fabian-mardi-119168-Recovered1.jpg" class="img-fluid" alt="Cinque Terre" width="100%" height="80%">
         </div>
          
        <%-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -78,7 +78,7 @@
                         <p class="card-text">Living in Melbourne and you can still enjoy your hometown food! Search thousands of yummies here and have a look at our tips!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Food</a>
+                        <a href="../foodSearching.aspx" class="btn btn-primary">Explore Food</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                         <p class="card-text">Lost in Melbourne? We've got some guidance for you to hang out with your new friends in Melbourne!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="services.aspx" class="btn btn-primary">Explore Transportation</a>
+                        <a href="../services.aspx" class="btn btn-primary">Explore Transportation</a>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
                         <p class="card-text">Study is stressful, how about having some sports in some of the best eqquipped courts around you?</p>
                     </div>
                     <div class="card-footer">
-                        <a href="foodSearching.aspx" class="btn btn-primary">Explore Fitness</a>
+                        <a href="../full-width.aspx" class="btn btn-primary">Explore Fitness</a>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                         <p class="card-text">Some general and practicle skills to live in Melbourne, for oversea students like you!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="portfolio-3-col.aspx" class="btn btn-primary">Explore general tips</a>
+                        <a href="../portfolio-3-col.aspx" class="btn btn-primary">Explore general tips</a>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                         <p class="card-text">Want something more? Tell us what you need!</p>
                     </div>
                     <div class="card-footer">
-                        <a href="contact.aspx" class="btn btn-primary">Feedback to Us</a>
+                        <a href="../contact.aspx" class="btn btn-primary">Feedback to Us</a>
                     </div>
                 </div>
             </div>
@@ -192,14 +192,14 @@
         </div>--%>
         <!-- /.row -->
 
-        <div class="jumbotron">
+ <%--       <div class="jumbotron">
   <h1 class="my-3">What's New For International Students</h1>
   <hr class="my-4">
   <p>Newsletter Goes Here</p>
   <p class="lead">
     <a class="btn btn-primary btn-md" href="#" role="button">Learn more</a>
   </p>
-</div>
+</div>--%>
 
 
         <!-- Features Section -->

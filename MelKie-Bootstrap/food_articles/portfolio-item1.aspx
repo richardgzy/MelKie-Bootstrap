@@ -9,12 +9,12 @@
     <title>Modern Business - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Custom styles for this template -->
-    <link href="~/css/modern-business.css" rel="stylesheet">
-    <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Let's Explore Japanese Cuisine"%>
+    <link href="../css/modern-business.css" rel="stylesheet">
+    <%@ Page Language="C#" MasterPageFile="../MelkieMaster.master" Title="Let's Explore Japanese Cuisine"%>
 </head>
 
 <body>

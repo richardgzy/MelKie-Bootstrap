@@ -118,10 +118,10 @@
 
                 <!-- Blog Post -->
                 <div class="card mb-4">
-                    <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap">
+                    <img class="card-img-top" src="dan-gold-2987101.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h2 class="card-title">Not Sure? Lets see what we got for you</h2>
-                        <p class="card-text">Melbourne is a city full of diversity, kind of lost in millions of choices above?<br/><br/>
+                        <p class="card-text">Melbourne is a city full of diversity, kind of lost in millions of choices?<br/><br/>
                             let's start exploring by reading some of our great tips for you. Those tips and articles help you understand different food culture in Melbourne!</p>
                         <a href="portfolio-1-col.aspx" class="btn btn-primary">Read More &rarr;</a>
                     </div>
@@ -157,7 +157,7 @@
 
                 <!-- Categories Widget -->
                 <div class="card my-4">
-                    <h5 class="card-header">Categories</h5>
+                    <h5 class="card-header">Quick Search</h5>
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
@@ -170,7 +170,7 @@
                             </div>
                             <div class="col-lg-6">
                                 <ul class="list-unstyled mb-0">
-                                    <li><asp:LinkButton id="LinkButton4" Text="Aussie Food" OnClick="searchButton_Click_2" runat="server"/></li>
+                                    <li><asp:LinkButton id="LinkButton4" Text="Korean Food" OnClick="searchButton_Click_2" runat="server"/></li>
                                     <li><asp:LinkButton id="LinkButton5" Text="Aussie Food" OnClick="searchButton_Click_2" runat="server"/></li>
                                     <li><asp:LinkButton id="LinkButton6" Text="Cafe" OnClick="searchButton_Click_2" runat="server"/></li>
                                 </ul>
@@ -183,7 +183,10 @@
                 <div class="card my-4">
                     <h5 class="card-header">How to use?</h5>
                     <div class="card-body">
-                        This is a convinient google map searching, type in anything you like and let us lead you to your favourite restaurant!
+                        This is a convinient google map searching, type in anything you like and let us lead you to your favourite restaurant!<br/><br/>
+                        Apart from <strong>name, type, address search</strong>, we also support <strong>range search</strong>.<br/><br/>
+                        For example, if you want to search all chinese restaurant in Melbourne CBD, type in 'Chinese restaurant in Melbourne CBD'<br/><br/> 
+                        You can also use the quick search sections above.
                     </div>
                 </div>
             </div>
