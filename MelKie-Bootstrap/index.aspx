@@ -27,8 +27,8 @@
 
 
         <div>
-           <img src="fabian-mardi-119168-Recovered1.jpg" class="img-fluid" alt="main image" width="100%" height="80%" style="opacity: 0.7; position:relative; ">
-            <div class="container" style="top:200px; left:50px; position: absolute;">
+           <img src="fabian-mardi-119168-Recovered1.jpg" class="img-fluid" alt="main image" width="100%" height="80%"; ">
+      <%--      <div class="container" style="top:200px; left:50px; position: absolute;">
                 <div class="row">
                <div class="col-lg-3" style="align-content:center">
                    <h3>Join a Wonderful Jourey with</h3>
@@ -40,7 +40,7 @@
                    <h3>Students in Melbourne!</h3>
                </div>
            </div>      
-            </div>
+            </div>--%>
        </div>
        
 
@@ -153,6 +153,19 @@
         <%--<h1 class="my-4">Welcome to Melbourne</h1>--%>
 
         <!-- Marketing Icons Section -->
+        <div class="card h-100">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="clock" style="margin:2em; align-content:center; padding-top:15px"></div> 
+                    </div>
+                    <div class="col-lg-5" style="align-self:center">
+                        <h2>Inernational Students in Victoria Now!</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         <div class="row" style="padding-top: 30px">
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
@@ -166,6 +179,28 @@
                 </div>
             </div>
             <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Get to Know Food Culture and Tips</h4>
+                    <div class="card-body">
+                        <p class="card-text">Melbourne is city full of diversity. Ready to explore different food culture or some useful tips?</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="../portfolio-1-col.aspx" class="btn btn-primary">Explore Tips& culture</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-4">
+                <div class="card h-100">
+                    <h4 class="card-header">Explore the Most Authentic From Your Region</h4>
+                    <div class="card-body">
+                        <p class="card-text">Get tired of other foods and desire some home tastes? Let us help you here</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="../countryPage.aspx" class="btn btn-primary">Explore Region Food</a>
+                    </div>
+                </div>
+            </div>
+            <%--<div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <h4 class="card-header">Transport in Melbourne</h4>
                     <div class="card-body">
@@ -186,10 +221,10 @@
                         <a href="../full-width.aspx" class="btn btn-primary">Explore Fitness</a>
                     </div>
                 </div>
-            </div>
+            </div>--%>
         </div>
         <div class="row">
-            <div class="col-lg-4 mb-4">
+            <%--<div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <h4 class="card-header">Miscellaneous</h4>
                     <div class="card-body">
@@ -199,7 +234,7 @@
                         <a href="../portfolio-3-col.aspx" class="btn btn-primary">Explore general tips</a>
                     </div>
                 </div>
-            </div>
+            </div>--%>
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <h4 class="card-header">Feedback to us</h4>

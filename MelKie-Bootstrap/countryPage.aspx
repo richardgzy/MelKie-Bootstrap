@@ -38,7 +38,8 @@
                         <img class="card-img-top" src="../China.jpg" alt="China" height="200px" width="100%">
                         <div class="card-body">
                             <h6 class="card-text"><a href="Cantonese Food.aspx">China</a></h6>
-                            <a style="color:darkgray">59,939 international students from China in VIC</a>
+                            <a style="color:darkgray">59,939 international fellows from China in VIC</a><br/>
+                            <a style="color:darkgray">150,393 international fellows from China in Australia</a>
                         </div>
                     </div>
                 </div>
@@ -47,6 +48,7 @@
                         <img class="card-img-top" src="../pakistan.png" alt="pakistan" height="200px" width="100%">
                         <div class="card-body">
                             <h6 class="card-text"><a href="Cantonese Food.aspx">Pakistan</a></h6>
+                            <a style="color:darkgray">11,097 international fellows from Pakistan in Australia</a>
                         </div>
                     </div>
                 </div>
