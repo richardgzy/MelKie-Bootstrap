@@ -31,3 +31,4 @@ C:\Users\Richard\documents\visual studio 2017\Projects\MelKie-Bootstrap\MelKie-B
 C:\Users\Richard\documents\visual studio 2017\Projects\MelKie-Bootstrap\MelKie-Bootstrap\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Richard\documents\visual studio 2017\Projects\MelKie-Bootstrap\MelKie-Bootstrap\obj\Release\MelKie-Bootstrap.dll
 C:\Users\Richard\documents\visual studio 2017\Projects\MelKie-Bootstrap\MelKie-Bootstrap\obj\Release\MelKie-Bootstrap.pdb
+C:\Users\Richard\Documents\Visual Studio 2017\Projects\MelKie-Bootstrap\MelKie-Bootstrap\obj\Release\MelKie-Bootstrap.csprojResolveAssemblyReference.cache

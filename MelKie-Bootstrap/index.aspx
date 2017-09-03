@@ -14,15 +14,98 @@
     <!-- Custom styles for this template -->
     <link href="modern-business.css" rel="stylesheet">
 
+
+    <link rel="stylesheet" href="../compiled/flipclock.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../compiled/flipclock.js"></script>
+
    <%@ Page Language="C#" MasterPageFile="MelkieMaster.master" Title="MelKie - Your One Stop Online Portal in Melbourne"%>
 
 </head>
 
 <body>
-    <header>
-       <div>
-        <img src="fabian-mardi-119168-Recovered1.jpg" class="img-fluid" alt="Cinque Terre" width="100%" height="80%">
+
+
+        <div>
+           <img src="fabian-mardi-119168-Recovered1.jpg" class="img-fluid" alt="main image" width="100%" height="80%" style="opacity: 0.7; position:relative; ">
+            <div class="container" style="top:200px; left:50px; position: absolute;">
+                <div class="row">
+               <div class="col-lg-3" style="align-content:center">
+                   <h3>Join a Wonderful Jourey with</h3>
+               </div>
+               <div class="col-lg-6">
+                  <div class="clock" style="margin:2em; align-content:center;"></div> 
+               </div>
+               <div class="col-lg-3" style="align-content:center">
+                   <h3>Students in Melbourne!</h3>
+               </div>
+           </div>      
+            </div>
+       </div>
+       
+
+  <%--       <script>
+            var jumboHeight = $('.jumbotron').outerHeight();
+            function parallax() {
+                var scrolled = $(window).scrollTop();
+                $('.bg').css('height', (jumboHeight - scrolled) + 'px');
+            }
+
+            $(window).scroll(function (e) {
+                parallax();
+            });
+        </script>
+    <div class="bg"></div>
+        <div class="jumbotron">
+            <h1>Bootstrap Jumbotron</h1>
+            <p class="lead">+ Parallax Effect using jQuery</p>
+                </div>
+      
+    <div class="container" style="background: url('../fabian-mardi-119168-Recovered1.jpg') no-repeat center center; width: 100%; height:100%">
+      <div class="jumbotron" style=" background: url('../fabian-mardi-119168-Recovered1.jpg') no-repeat center center; width: 100%; height:100%">
+            <h1 class="my-3">What's New For International Students</h1>
+            <hr class="my-4">
+            <p>Newsletter Goes Here</p>
+            <div class="clock" style="margin:2em;"></div>
         </div>
+    </div>--%>
+        
+        <script type="text/javascript">
+            var clock;
+
+            $(document).ready(function () {
+
+                // Instantiate a counter
+                clock = new FlipClock($('.clock'), 583243, {
+                    clockFace: 'Counter'
+                });
+
+                // Attach a click event to a button a increment the clock
+                $('.increment').click(function () {
+                    //clock.setValue(10);
+
+                    // Or you could decrease the clock
+                    // clock.decrement();
+
+                    clock.increment();
+
+                    // Or set it to a specific value
+                    // clock.setValue(x);
+                });
+
+				// Use this code if you want to autoincrement the counter.
+				//var timer = new FlipClock.Timer(clock, {
+				//	callbacks: {
+				//		interval: function() {
+				//			clock.increment();
+				//		}
+				//	}
+				//});
+
+				timer.start();
+				
+            });
+		</script>
          
        <%-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -67,10 +150,10 @@
     <!-- Page Content -->
     <div class="container">
 
-        <h1 class="my-4">Welcome to Melbourne</h1>
+        <%--<h1 class="my-4">Welcome to Melbourne</h1>--%>
 
         <!-- Marketing Icons Section -->
-        <div class="row">
+        <div class="row" style="padding-top: 30px">
             <div class="col-lg-4 mb-4">
                 <div class="card h-100">
                     <h4 class="card-header">What's yummy here?</h4>

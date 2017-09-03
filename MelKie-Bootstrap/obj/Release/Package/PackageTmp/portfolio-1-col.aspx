@@ -21,26 +21,26 @@
     <div class="container">
 
         <!-- Page Heading/Breadcrumbs -->
-        <h1 class="mt-4 mb-3">Portfolio 1 <small>Subheading</small></h1>
+        <h1 class="mt-4 mb-3">Food Culture and Tips For You</h1>
 
         <ol class="breadcrumb">
             <li class="breadcrumb-item">
                 <a href="index.aspx">Home</a>
             </li>
-            <li class="breadcrumb-item active">Portfolio 1</li>
+            <li class="breadcrumb-item active">Food Culture and Tips</li>
         </ol>
 
         <!-- Project One -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-4">
                 <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="food_articles/japanese_food_1.jpg" alt="">
                 </a>
             </div>
-            <div class="col-md-5">
-                <h3>Project One</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="col-md-8">
+                <h3>Let's Explore Japanese Cuisine</h3>
+                <p>Japanese cuisine offers an abundance of gastronomical delights with a boundless variety of regional and seasonal dishes as well as international cuisine. Two of the most popular Japanese cuisine are Ramen and Sashimi. </p>
+                <a class="btn btn-primary" href="food_articles/portfolio-item1.aspx">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
@@ -49,15 +49,15 @@
 
         <!-- Project Two -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-4">
                 <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="food_articles/chinese_food_1.jpg" alt="">
                 </a>
             </div>
-            <div class="col-md-5">
-                <h3>Project Two</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="col-md-8">
+                <h3>The Beauty of Chinese Food</h3>
+                <p>Chinese cuisine is an important constituent part of Chinese culture. Rather than using forks, chopsticks are the major eating utensils for Chinese dishes that can be used to pick up the food. The most essential characteristics of Chinese food comprise of color, aroma, and taste. </p>
+                <a class="btn btn-primary" href="food_articles/portfolio-item2.aspx">Read More<span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
@@ -66,22 +66,22 @@
 
         <!-- Project Three -->
         <div class="row">
-            <div class="col-md-7">
+            <div class="col-md-4">
                 <a href="#">
-                    <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
+                    <img class="img-fluid rounded mb-3 mb-md-0" src="food_articles/korean_food_1.jpg" alt="">
                 </a>
             </div>
-            <div class="col-md-5">
-                <h3>Project Three</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-                <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+            <div class="col-md-8">
+                <h3>You Should Try These Korean Food!</h3>
+                <p>Korean Cuisine is mainly relied on grains, vegetables and meats. There are various side dishes are involved in Korean food as well. The most special and exotic side dish is “Kimchi”, which is made from salted and fermented vegetables that almost always served with every kinds of Korean meals. “Kimchi” is famous for the appetite like pickles that contains amounts of good nutritious such as vitamin C, and fiber.</p>
+                <a class="btn btn-primary" href="food_articles/portfolio-item3.aspx">Read More <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
-
-        <!-- Project Four -->
+        <a> More tips to go...</a>
+        <%--<!-- Project Four -->
         <div class="row">
 
             <div class="col-md-7">
@@ -94,13 +94,13 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
                 <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
-        </div>
+        </div>--%>
         <!-- /.row -->
 
         <hr>
 
         <!-- Pagination -->
-        <ul class="pagination justify-content-center">
+       <%-- <ul class="pagination justify-content-center">
             <li class="page-item">
                 <a class="page-link" href="#" aria-label="Previous">
                     <span aria-hidden="true">&laquo;</span>
@@ -116,7 +116,7 @@
                     <span class="sr-only">Next</span>
                 </a>
             </li>
-        </ul>
+        </ul>--%>
 
     </div>
     <!-- /.container -->

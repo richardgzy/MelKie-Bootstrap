@@ -13,6 +13,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css/modern-business.css" rel="stylesheet">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <%@ Page Language="C#" MasterPageFile="~/MelkieMaster.master" Title="Contact Us"%>
 </head>
 
@@ -94,7 +95,7 @@
                     </div>
                     <div id="success"></div>
                     <!-- For success/fail messages -->
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <button type="submit" class=" btn btn-primary g-recaptcha" data-sitekey="6LdY5y4UAAAAAPLH36QBWdoiIHWXN0BrQ7jlGK2h" data-callback="YourOnSubmitFn"> Send Feedback</button>
                 </form>
             </div>
 

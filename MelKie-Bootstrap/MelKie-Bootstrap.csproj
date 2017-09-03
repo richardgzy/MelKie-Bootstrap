@@ -68,8 +68,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="bootstrap.min.css" />
+    <Content Include="China.jpg" />
+    <Content Include="compiled\flipclock.css" />
+    <Content Include="compiled\flipclock.js" />
+    <Content Include="compiled\flipclock.min.js" />
     <Content Include="dan-gold-2987101.jpg" />
     <Content Include="fabian-mardi-119168-Recovered1.jpg" />
+    <Content Include="Cantonese Food.aspx" />
     <Content Include="foodSearching.aspx" />
     <Content Include="food_articles\bootstrap.min.css" />
     <Content Include="food_articles\chinese_food_1.jpg" />
@@ -89,7 +94,18 @@
     <Content Include=".gitignore" />
     <Content Include="LICENSE" />
     <Content Include="package.json" />
+    <Content Include="pakistan.png" />
     <Content Include="README.md" />
+    <Content Include="region_search_pic\Cantonese_Food\food\Beef Chow Fun .jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\food\Cha_Siu_Bao.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\food\Claypot Rice.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\food\Congee.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\food\Roast goose.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\ingredient\Dark Soy sauce.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\ingredient\Light soy sauce.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\ingredient\Oyster sauce.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\ingredient\Seafood sauce.jpg" />
+    <Content Include="region_search_pic\Cantonese_Food\ingredient\Shrimp sauce.jpg" />
     <Content Include="searchingPage.aspx" />
     <None Include="Properties\PublishProfiles\MelKie-Bootstrap - Web Deploy.pubxml" />
     <Content Include="MelkieMaster.Master" />
@@ -107,7 +123,7 @@
     <Content Include="blog-post.aspx" />
     <Content Include="contact.aspx" />
     <Content Include="faq.aspx" />
-    <Content Include="full-width.aspx" />
+    <Content Include="countryPage.aspx" />
     <Content Include="gulpfile.js" />
     <Content Include="index.aspx" />
     <Content Include="portfolio-1-col.aspx" />
